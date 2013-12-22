@@ -1,0 +1,7 @@
+absorbing.avi
+
+Is an example of a configuration of a KA mixture (N=500) which is absorbing under a full deformation cycle of amplitude 0.1.
+
+diffusing.avi
+
+Is an example of a configuration of a KA mixture (N=500) which is perturbed by a full deformation cycle of amplitude 0.15.
