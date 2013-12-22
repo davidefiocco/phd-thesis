@@ -7,30 +7,30 @@ p = float(sys.argv[2])
 gamma_max = int(sys.argv[3])
 np.random.seed(123456)
 
-allPfwd = np.eye(M)
-allPrev = np.eye(M)
+allPplus = np.eye(M)
+allPminus = np.eye(M)
 
 for gammastar in range(1, gamma_max):
     
-    Pfwd = np.zeros((M, M))
-    Prev = np.zeros((M, M))    
+    Pplus = np.zeros((M, M))
+    Pminus = np.zeros((M, M))    
     unstable = np.random.rand(M) < p 
     for i in xrange(M):
         if unstable[i]:
             dest = np.random.randint(M) 
-            Pfwd[dest,i] = 1
+            Pplus[dest,i] = 1
         else:
-            Pfwd[i,i] = 1 
+            Pplus[i,i] = 1 
     for i in xrange(M):
         if unstable[i]: 
             dest = np.random.randint(M)
-            Prev[dest,i] = 1
+            Pminus[dest,i] = 1
         else:
-            Prev[i,i] = 1
+            Pminus[i,i] = 1
 
-    allPfwd = np.dot(Pfwd, allPfwd) 
-    allPrev = np.dot(allPrev, Prev)
+    allPplus = np.dot(Pplus, allPplus) 
+    allPminus = np.dot(allPminus, Pminus)
     
-Pplus = np.dot(allPrev, allPfwd) 
+Pplus = np.dot(allPminus, allPplus) 
 plt.spy(Pplus)  
 plt.show()
