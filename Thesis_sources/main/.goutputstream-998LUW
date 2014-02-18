@@ -1,0 +1,11 @@
+\chapter{Simulation of Lennard-Jones samples}
+
+The phenomenology observed in experiments on glass formers can be understood with the aid of simple models.   
+
+Binary mixtures of particles interacting via an isotropic Lennard-Jones potential of the form 
+\begin{equation}
+	\phi_{ij}(r) = 4\epsilon_{ij} \left[ \left( \frac{\sigma_{ij}}{r} \right)^{12} - \left( \frac{\sigma_{ij}}{r} \right)^{6} \right] 
+\end{equation}
+
+has been extensively used in numerical and simulation work to probe and reproduce the behaviour of glassy systems. \todo[inline]{la roba numerica è MCT}
+
