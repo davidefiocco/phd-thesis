@@ -97,8 +97,8 @@ output_file		ddef.dat
 dump_0_shear_only 1
 --------------------------------
 
-The code is indentical performs the same deformation of operations see in 2., but starting from a *deformed* configuration.
-The parameter gamma_max should be calculated by an external script and equal to int(4.*gamma_max/dgamma) + 1 so to perform a single oscillation cycle.
+The code performs the same deformation operations seen in 2., but starting from a configuration *deformed* in a cyclic way with an amplitude g1.
+The parameter g_steps should be calculated by an external script and set equal to int(4.*gamma_max/dgamma) + 1 so to perform a single oscillation cycle.
 
 5. MEMORY READ (from systems subjected to 3. OSCILLATORY DEFORMATION with 2 values)
 
@@ -121,7 +121,7 @@ output_file		dd2ef.dat
 dump_0_shear_only 1
 --------------------------------
 
-The code is indentical performs the same deformation of operations see in 3., but starting from a *deformed* configuration.
-The parameter gamma_max should be calculated by an external script and set equal to int(4.*gamma_max/dgamma) + 1 so to perform a single oscillation cycle.
+The code performs the same operations seen in 2., but starting from a configuration *deformed* with an oscillatory protocol using two amplitudes g1 and g2.
+The parameter g_steps should be calculated by an external script and set equal to int(4.*gamma_max/dgamma) + 1 so to perform a single oscillation cycle.
 
 This C code above should be wrapped with scripts and run on multiple instances of the system, so to average over several instances of disorder (the couplings).
