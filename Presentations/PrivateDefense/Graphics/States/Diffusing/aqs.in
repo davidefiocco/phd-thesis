@@ -1,0 +1,26 @@
+thermo_style custom v_mystep pe xy xz yz lx
+
+min_style cg
+
+minimize ${thresh} ${thresh} ${maxiter} ${maxiter}
+
+variable i loop ${maxsteps}
+
+label	    loop
+
+	include shear.in
+	
+	next i
+
+jump	    aqs.in loop
+
+variable j loop ${maxsteps}
+
+label	    loop2
+
+	include backshear.in
+
+	next j
+
+jump	    aqs.in loop2
+

@@ -1,0 +1,10 @@
+variable dgamma equal 						0.05
+variable maxcycles equal					1
+variable maxgamma  equal					0.1
+
+variable thresh equal 						1e-8
+variable maxiter equal 						1e6
+
+variable seed1 equal 						425345324521
+variable seed2 equal 						253421318725
+
