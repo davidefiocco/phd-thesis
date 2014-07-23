@@ -1,0 +1,6 @@
+N				20
+K				10
+T 				0.6
+t_steps 		20
+disorder_file	dis.dat
+output_file		eq.dat
