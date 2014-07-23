@@ -1,0 +1,11 @@
+N				20
+K				10
+gamma_max_1 	0.2
+gamma_max_2 	0.3
+dgamma			0.001
+g_steps			5000
+disorder_file	dis.dat
+initial_configuration	eq.dat
+nconf			1
+output_file		d2ef.dat
+dump_0_shear_only 1
