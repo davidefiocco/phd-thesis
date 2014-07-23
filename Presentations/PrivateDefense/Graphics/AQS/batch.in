@@ -1,0 +1,54 @@
+echo none
+
+atom_modify map hash
+
+include params.in
+
+variable maxsteps equal ${maxgamma}/${dgamma}
+
+pair_style      lj/cut  2.5
+read_data restart
+include sys.in
+
+run 0
+
+set group all image 0 0 0
+
+change_box all triclinic
+
+include params.in
+
+min_style cg
+
+minimize ${thresh} ${thresh} ${maxiter} ${maxiter}
+
+shell mkdir confs
+dump confs all custom 1 confs/aqs0.xyz type x y z
+dump_modify confs sort id every 1
+
+variable mystep equal 0
+thermo_style custom v_mystep pe xy xz yz lx
+
+run 0
+undump confs
+
+variable dir string xy
+
+variable cyc loop ${maxcycles}
+
+label loopout
+	
+		variable sign index 1 -1
+
+		label	    loopin
+	
+		include aqs.in
+		
+		next sign
+		
+	jump	    batch.in loopin
+		
+	next cyc	
+
+jump	    batch.in loopout
+

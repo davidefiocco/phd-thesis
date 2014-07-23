@@ -1,0 +1,985 @@
+LAMMPS (14 May 2013)
+echo none
+  orthogonal box = (-3.7345 -3.7345 -3.7345) to (3.7345 3.7345 3.7345)
+  1 by 1 by 1 MPI processor grid
+  500 atoms
+  500 velocities
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.01889 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0   0.50585329   -6.9187889            0   -6.1615265    3.6053207 
+Loop time of 9.53674e-07 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 9.53674e-07 (100)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2170 ave 2170 max 2170 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22967 ave 22967 max 22967 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22967
+Ave neighs/atom = 45.934
+Neighbor list builds = 0
+Dangerous builds = 0
+  500 settings made for image
+  triclinic box = (-3.7345 -3.7345 -3.7345) to (3.7345 3.7345 3.7345) with tilt (0 0 0)
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0   0.50585329   -6.9187889            0   -6.1615265    3.6053207 
+     140   0.50585329   -7.6695048            0   -6.9122425   -1.0144851 
+Loop time of 0.523865 on 1 procs for 140 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -6.91878890857      -7.6695047821     -7.66950484093
+  Force two-norm initial, final = 621.229 0.137989
+  Force max component initial, final = 73.2835 0.0472134
+  Final line search alpha, max atom move = 0.00390625 0.000184427
+  Iterations, force evaluations = 140 994
+
+Pair  time (%) = 0.472896 (90.2705)
+Neigh time (%) = 0.0264769 (5.05414)
+Comm  time (%) = 0.0151002 (2.88247)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.00939226 (1.79288)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2166 ave 2166 max 2166 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22877 ave 22877 max 22877 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22877
+Ave neighs/atom = 45.754
+Neighbor list builds = 19
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           0   -7.6695048            0            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2166 ave 2166 max 2166 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22874 ave 22874 max 22874 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22874
+Ave neighs/atom = 45.748
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           0   -7.6695048            0            0            0        7.469 
+           0   -7.6695049            0            0            0        7.469 
+Loop time of 0.00648713 on 1 procs for 1 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.66950484093     -7.66950484093     -7.66950486428
+  Force two-norm initial, final = 0.137989 0.0805923
+  Force max component initial, final = 0.0472134 0.0162046
+  Final line search alpha, max atom move = 0.000976562 1.58248e-05
+  Iterations, force evaluations = 1 11
+
+Pair  time (%) = 0.00620794 (95.6963)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.000177622 (2.73806)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.000101566 (1.56566)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2166 ave 2166 max 2166 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22874 ave 22874 max 22874 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22874
+Ave neighs/atom = 45.748
+Neighbor list builds = 0
+Dangerous builds = 0
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           1   -7.6695049            0            0            0        7.469 
+           1   -7.6695049      0.37345            0            0        7.469 
+Loop time of 0.000547171 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.000515938 (94.2919)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 1.62125e-05 (2.96296)
+Outpt time (%) = 5.00679e-06 (0.915033)
+Other time (%) = 1.00136e-05 (1.83007)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2166 ave 2166 max 2166 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22874 ave 22874 max 22874 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22874
+Ave neighs/atom = 45.748
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           1   -7.6254398      0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2168 ave 2168 max 2168 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22836 ave 22836 max 22836 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22836
+Ave neighs/atom = 45.672
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           2   -7.6254398      0.37345            0            0        7.469 
+           2   -7.6542222      0.37345            0            0        7.469 
+Loop time of 0.387502 on 1 procs for 110 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+         -7.6254397993     -7.65422214705     -7.65422222027
+  Force two-norm initial, final = 71.0451 0.124042
+  Force max component initial, final = 6.8058 0.0289615
+  Final line search alpha, max atom move = 0.00195312 5.65654e-05
+  Iterations, force evaluations = 110 737
+
+Pair  time (%) = 0.35502 (91.6176)
+Neigh time (%) = 0.0145023 (3.74251)
+Comm  time (%) = 0.0108824 (2.80834)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.00709724 (1.83154)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2168 ave 2168 max 2168 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22874 ave 22874 max 22874 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22874
+Ave neighs/atom = 45.748
+Neighbor list builds = 10
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           2   -7.6542222      0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2172 ave 2172 max 2172 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22869 ave 22869 max 22869 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22869
+Ave neighs/atom = 45.738
+Neighbor list builds = 0
+Dangerous builds = 0
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           3   -7.6542222      0.37345            0            0        7.469 
+           3   -7.6542222       0.7469            0            0        7.469 
+Loop time of 0.000500917 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.000473976 (94.6216)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 1.40667e-05 (2.80819)
+Outpt time (%) = 4.05312e-06 (0.809139)
+Other time (%) = 8.82149e-06 (1.76107)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2172 ave 2172 max 2172 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22869 ave 22869 max 22869 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22869
+Ave neighs/atom = 45.738
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           3   -7.5769709       0.7469            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2180 ave 2180 max 2180 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22838 ave 22838 max 22838 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22838
+Ave neighs/atom = 45.676
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           4   -7.5769709       0.7469            0            0        7.469 
+           4     -7.61502       0.7469            0            0        7.469 
+Loop time of 3.28214 on 1 procs for 799 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.57697088384     -7.61501997703      -7.6150200225
+  Force two-norm initial, final = 73.6944 0.115912
+  Force max component initial, final = 7.03478 0.0283754
+  Final line search alpha, max atom move = 0.00195312 5.54206e-05
+  Iterations, force evaluations = 799 6359
+
+Pair  time (%) = 3.03897 (92.5909)
+Neigh time (%) = 0.092627 (2.82215)
+Comm  time (%) = 0.0929911 (2.83324)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.0575604 (1.75375)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2183 ave 2183 max 2183 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22874 ave 22874 max 22874 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22874
+Ave neighs/atom = 45.748
+Neighbor list builds = 63
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           4     -7.61502       0.7469            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2183 ave 2183 max 2183 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22846 ave 22846 max 22846 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22846
+Ave neighs/atom = 45.692
+Neighbor list builds = 0
+Dangerous builds = 0
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           5     -7.61502       0.7469            0            0        7.469 
+           5     -7.61502      0.37345            0            0        7.469 
+Loop time of 0.00117111 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.00110292 (94.1775)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 3.21865e-05 (2.74837)
+Outpt time (%) = 1.09673e-05 (0.936482)
+Other time (%) = 2.5034e-05 (2.13762)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2183 ave 2183 max 2183 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22846 ave 22846 max 22846 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22846
+Ave neighs/atom = 45.692
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           5   -7.6129628      0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2183 ave 2183 max 2183 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22887 ave 22887 max 22887 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22887
+Ave neighs/atom = 45.774
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           6   -7.6129628      0.37345            0            0        7.469 
+           6   -7.6576169      0.37345            0            0        7.469 
+Loop time of 0.770267 on 1 procs for 227 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.61296283688     -7.65761685815     -7.65761692901
+  Force two-norm initial, final = 72.1944 0.125067
+  Force max component initial, final = 6.75187 0.0310396
+  Final line search alpha, max atom move = 0.00195312 6.06242e-05
+  Iterations, force evaluations = 227 1404
+
+Pair  time (%) = 0.676324 (87.8038)
+Neigh time (%) = 0.0577047 (7.49152)
+Comm  time (%) = 0.0225117 (2.92259)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.0137267 (1.78207)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2170 ave 2170 max 2170 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22858 ave 22858 max 22858 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22858
+Ave neighs/atom = 45.716
+Neighbor list builds = 40
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           6   -7.6576169      0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2170 ave 2170 max 2170 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22859 ave 22859 max 22859 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22859
+Ave neighs/atom = 45.718
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           7   -7.6576169      0.37345            0            0        7.469 
+           7   -7.6576169            0            0            0        7.469 
+Loop time of 0.00113392 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.00107193 (94.5332)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 3.29018e-05 (2.9016)
+Outpt time (%) = 8.10623e-06 (0.714886)
+Other time (%) = 2.09808e-05 (1.85029)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2170 ave 2170 max 2170 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22859 ave 22859 max 22859 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22859
+Ave neighs/atom = 45.718
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           7   -7.6467487            0            0            0        7.469 
+Loop time of 9.53674e-07 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 9.53674e-07 (100)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2166 ave 2166 max 2166 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22905 ave 22905 max 22905 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22905
+Ave neighs/atom = 45.81
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           8   -7.6467487            0            0            0        7.469 
+           8   -7.6728251            0            0            0        7.469 
+Loop time of 0.477837 on 1 procs for 122 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+         -7.6467487223     -7.67282502412     -7.67282509102
+  Force two-norm initial, final = 69.549 0.137152
+  Force max component initial, final = 6.87893 0.0585624
+  Final line search alpha, max atom move = 0.00195312 0.00011438
+  Iterations, force evaluations = 122 917
+
+Pair  time (%) = 0.443319 (92.7762)
+Neigh time (%) = 0.0123749 (2.58977)
+Comm  time (%) = 0.0135987 (2.84588)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.00854421 (1.7881)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2168 ave 2168 max 2168 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22887 ave 22887 max 22887 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22887
+Ave neighs/atom = 45.774
+Neighbor list builds = 9
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           8   -7.6728251            0            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2160 ave 2160 max 2160 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22886 ave 22886 max 22886 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22886
+Ave neighs/atom = 45.772
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           8   -7.6728251            0            0            0        7.469 
+           8   -7.6728251            0            0            0        7.469 
+Loop time of 0.0118592 on 1 procs for 1 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.67282509102     -7.67282509102     -7.67282511269
+  Force two-norm initial, final = 0.137152 0.0911301
+  Force max component initial, final = 0.0585624 0.0267674
+  Final line search alpha, max atom move = 0.000976562 2.614e-05
+  Iterations, force evaluations = 1 11
+
+Pair  time (%) = 0.0113258 (95.5027)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.000331163 (2.79246)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.000202179 (1.70483)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2160 ave 2160 max 2160 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22886 ave 22886 max 22886 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22886
+Ave neighs/atom = 45.772
+Neighbor list builds = 0
+Dangerous builds = 0
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           9   -7.6728251            0            0            0        7.469 
+           9   -7.6728251     -0.37345            0            0        7.469 
+Loop time of 0.000488043 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.000461817 (94.6263)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 1.50204e-05 (3.07767)
+Outpt time (%) = 3.09944e-06 (0.635076)
+Other time (%) = 8.10623e-06 (1.66097)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2160 ave 2160 max 2160 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22886 ave 22886 max 22886 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22886
+Ave neighs/atom = 45.772
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+           9   -7.6260089     -0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2164 ave 2164 max 2164 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22949 ave 22949 max 22949 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22949
+Ave neighs/atom = 45.898
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          10   -7.6260089     -0.37345            0            0        7.469 
+          10   -7.6542561     -0.37345            0            0        7.469 
+Loop time of 0.74397 on 1 procs for 183 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.62600887515      -7.6542560701      -7.6542561338
+  Force two-norm initial, final = 70.603 0.186465
+  Force max component initial, final = 7.66968 0.0772646
+  Final line search alpha, max atom move = 0.00195312 0.000150908
+  Iterations, force evaluations = 183 1357
+
+Pair  time (%) = 0.654264 (87.9422)
+Neigh time (%) = 0.0546019 (7.33926)
+Comm  time (%) = 0.022069 (2.96638)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.0130355 (1.75216)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2162 ave 2162 max 2162 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22910 ave 22910 max 22910 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22910
+Ave neighs/atom = 45.82
+Neighbor list builds = 38
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          10   -7.6542561     -0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2162 ave 2162 max 2162 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22909 ave 22909 max 22909 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22909
+Ave neighs/atom = 45.818
+Neighbor list builds = 0
+Dangerous builds = 0
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          11   -7.6542561     -0.37345            0            0        7.469 
+          11   -7.6542561      -0.7469            0            0        7.469 
+Loop time of 0.000908852 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.000859022 (94.5173)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 2.81334e-05 (3.09549)
+Outpt time (%) = 6.91414e-06 (0.760756)
+Other time (%) = 1.4782e-05 (1.62644)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2162 ave 2162 max 2162 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22909 ave 22909 max 22909 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22909
+Ave neighs/atom = 45.818
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          11   -7.5739822      -0.7469            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2168 ave 2168 max 2168 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22951 ave 22951 max 22951 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22951
+Ave neighs/atom = 45.902
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          12   -7.5739822      -0.7469            0            0        7.469 
+          12   -7.6120044      -0.7469            0            0        7.469 
+Loop time of 0.72181 on 1 procs for 216 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.57398217864     -7.61200430995     -7.61200436787
+  Force two-norm initial, final = 72.8981 0.133475
+  Force max component initial, final = 8.14121 0.0338024
+  Final line search alpha, max atom move = 0.00195312 6.60203e-05
+  Iterations, force evaluations = 216 1365
+
+Pair  time (%) = 0.656953 (91.0147)
+Neigh time (%) = 0.0307343 (4.25795)
+Comm  time (%) = 0.0207262 (2.87142)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.0133963 (1.85593)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2199 ave 2199 max 2199 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22948 ave 22948 max 22948 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22948
+Ave neighs/atom = 45.896
+Neighbor list builds = 21
+Dangerous builds = 0
+ecco
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          12   -7.6120044      -0.7469            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2193 ave 2193 max 2193 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22957 ave 22957 max 22957 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22957
+Ave neighs/atom = 45.914
+Neighbor list builds = 0
+Dangerous builds = 0
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          13   -7.6120044      -0.7469            0            0        7.469 
+          13   -7.6120044     -0.37345            0            0        7.469 
+Loop time of 0.000495911 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.000468969 (94.5673)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 1.40667e-05 (2.83654)
+Outpt time (%) = 4.05312e-06 (0.817308)
+Other time (%) = 8.82149e-06 (1.77885)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2193 ave 2193 max 2193 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22957 ave 22957 max 22957 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22957
+Ave neighs/atom = 45.914
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          13   -7.6189737     -0.37345            0            0        7.469 
+Loop time of 9.53674e-07 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 9.53674e-07 (100)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2187 ave 2187 max 2187 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22915 ave 22915 max 22915 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22915
+Ave neighs/atom = 45.83
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          14   -7.6189737     -0.37345            0            0        7.469 
+          14   -7.6516868     -0.37345            0            0        7.469 
+Loop time of 1.57662 on 1 procs for 405 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.61897366553     -7.65168670571     -7.65168677632
+  Force two-norm initial, final = 72.0823 0.207667
+  Force max component initial, final = 6.35955 0.0402103
+  Final line search alpha, max atom move = 0.00390625 0.000157071
+  Iterations, force evaluations = 405 3067
+
+Pair  time (%) = 1.46619 (92.9957)
+Neigh time (%) = 0.0371497 (2.35629)
+Comm  time (%) = 0.0449951 (2.85389)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.028286 (1.79409)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2178 ave 2178 max 2178 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22900 ave 22900 max 22900 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22900
+Ave neighs/atom = 45.8
+Neighbor list builds = 26
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          14   -7.6516868     -0.37345            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2181 ave 2181 max 2181 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22907 ave 22907 max 22907 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22907
+Ave neighs/atom = 45.814
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+Memory usage per processor = 2.17148 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          15   -7.6516868     -0.37345            0            0        7.469 
+          15   -7.6516868            0            0            0        7.469 
+Loop time of 0.000515938 on 1 procs for 1 steps with 500 atoms
+
+Pair  time (%) = 0.000488043 (94.5933)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 1.38283e-05 (2.68022)
+Outpt time (%) = 3.8147e-06 (0.739372)
+Other time (%) = 1.0252e-05 (1.98706)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2181 ave 2181 max 2181 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22907 ave 22907 max 22907 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22907
+Ave neighs/atom = 45.814
+Neighbor list builds = 0
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.34695 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          15   -7.6303726            0            0            0        7.469 
+Loop time of 0 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 0 (0)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2181 ave 2181 max 2181 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22884 ave 22884 max 22884 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22884
+Ave neighs/atom = 45.768
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco
+WARNING: Resetting reneighboring criteria during minimization (../min.cpp:173)
+Memory usage per processor = 2.89246 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          16   -7.6303726            0            0            0        7.469 
+          16   -7.6730965            0            0            0        7.469 
+Loop time of 0.606 on 1 procs for 177 steps with 500 atoms
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -7.63037259545       -7.673096471     -7.67309653063
+  Force two-norm initial, final = 71.413 0.236378
+  Force max component initial, final = 6.80963 0.0407625
+  Final line search alpha, max atom move = 0.001284 5.23393e-05
+  Iterations, force evaluations = 177 1164
+
+Pair  time (%) = 0.557842 (92.053)
+Neigh time (%) = 0.0194633 (3.21176)
+Comm  time (%) = 0.017451 (2.87971)
+Outpt time (%) = 0 (0)
+Other time (%) = 0.0112443 (1.85549)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2164 ave 2164 max 2164 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22884 ave 22884 max 22884 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22884
+Ave neighs/atom = 45.768
+Neighbor list builds = 14
+Dangerous builds = 0
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+Memory usage per processor = 2.36794 Mbytes
+mystep PotEng Xy Xz Yz Lx 
+          16   -7.6730965            0            0            0        7.469 
+Loop time of 9.53674e-07 on 1 procs for 0 steps with 500 atoms
+
+Pair  time (%) = 0 (0)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0 (0)
+Outpt time (%) = 0 (0)
+Other time (%) = 9.53674e-07 (100)
+
+Nlocal:    500 ave 500 max 500 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    2156 ave 2156 max 2156 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    22891 ave 22891 max 22891 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 22891
+Ave neighs/atom = 45.782
+Neighbor list builds = 0
+Dangerous builds = 0
+ecco

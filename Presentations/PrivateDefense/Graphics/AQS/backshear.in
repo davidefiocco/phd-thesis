@@ -1,0 +1,30 @@
+variable dtilt equal ${dgamma}*${sign}*lx*-1
+
+variable mystep equal ${mystep}+1
+
+fix def all deform 1 ${dir} delta ${dtilt} units box
+
+run 1
+
+unfix def
+
+dump confs all custom 1 confs/aqs${mystep}.xyz type x y z
+
+run 0
+print "ecco"
+
+undump confs
+
+min_style cg
+
+variable mystep equal ${mystep}+1
+minimize ${thresh} ${thresh} ${maxiter} ${maxiter}
+
+dump confs all custom 1 confs/aqs${mystep}.xyz type x y z
+dump_modify confs sort id every 1
+min_style cg
+
+run 0
+print "ecco"
+
+undump confs

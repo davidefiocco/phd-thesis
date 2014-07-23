@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{corte2008random}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Corte}{C.}%
+     {Laurent}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chaikin}{C.}%
+     {PM}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gollub}{G.}%
+     {JP}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pine}{P.}%
+     {DJ}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CL+1}
+  \strng{fullhash}{CLCPGJPD1}
+  \field{labelyear}{2008}
+  \field{sortinit}{C}
+  \field{journaltitle}{Nature Physics}
+  \field{year}{2008}
+\endentry
+
+\entry{keim2011generic}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Keim}{K.}%
+     {Nathan~C}{N.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nagel}{N.}%
+     {Sidney~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KNCNSR1}
+  \strng{fullhash}{KNCNSR1}
+  \field{labelyear}{2011}
+  \field{sortinit}{K}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{year}{2011}
+\endentry
+
+\entry{lacks2004energy}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lacks}{L.}%
+     {Daniel~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osborne}{O.}%
+     {Mark~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{LDJOMJ1}
+  \strng{fullhash}{LDJOMJ1}
+  \field{labelyear}{2004}
+  \field{sortinit}{L}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{year}{2004}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

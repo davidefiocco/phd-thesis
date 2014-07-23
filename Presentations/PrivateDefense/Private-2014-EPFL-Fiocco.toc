@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.24pt}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction to metallic glasses}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Modelization of metallic glasses}{14}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Simulations of deformation of metallic glasses}{27}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Oscillatory quasi static deformation protocol}{27}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Known and new results}{32}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Comparision with suspensions, memory phenomena}{70}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Toy models}{82}{0}{3}
