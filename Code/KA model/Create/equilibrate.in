@@ -1,0 +1,28 @@
+shell mkdir results/equilibration
+log results/equilibration.log
+
+read_restart	results/made
+
+include params.in
+
+include sys.in
+
+timestep ${timestep}
+
+neighbor		0.3 bin
+neigh_modify	every 1 delay 0 check no
+
+compute disp all msd
+
+thermo ${thermofreq}
+
+fix hotbath all nvt temp $T $T 1.0
+thermo_style custom step temp epair c_disp[4]
+
+run		${equil}
+
+unfix hotbath
+
+set group all image 0 0 0
+
+write_restart results/equilibrated

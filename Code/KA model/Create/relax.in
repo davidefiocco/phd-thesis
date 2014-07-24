@@ -1,0 +1,50 @@
+shell mkdir results/relaxation
+log results/relaxation.log
+
+read_restart    results/equilibrated
+
+include params.in
+include sys.in
+timestep ${timestep}
+
+variable relaxrun loop ${maxrelaxrun}
+
+neighbor        0.3 bin
+neigh_modify    every 1 delay 0 check no
+
+reset_timestep 0 
+
+dump confs all custom 1 results/relaxation/0.xyz type xu yu zu
+dump_modify confs sort id every 1
+
+fix micro all nve
+run             0
+unfix micro
+
+undump confs	
+
+label       loop
+
+reset_timestep 0 
+
+variable        s equal logfreq(2,1,2) #space with powers of 2
+variable        mystep equal step+(${relaxrun}-1)*${maxrelaxstep}
+
+compute disp${relaxrun} all msd
+thermo_style custom v_mystep pe temp epair c_disp${relaxrun}[4]
+thermo_modify   every v_s 
+
+dump confs all custom 1 results/relaxation/relax${mystep}.xyz type xu yu zu
+dump_modify confs sort id every v_s
+
+fix micro all nve
+run             ${maxrelaxstep}
+unfix micro
+
+undump confs	
+
+next relaxrun
+
+write_restart    results/relaxed
+
+jump relax.in loop
