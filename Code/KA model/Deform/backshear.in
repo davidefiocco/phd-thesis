@@ -1,0 +1,17 @@
+variable dtilt equal ${dgamma}*${sign}*lx*-1
+
+variable mystep equal ${mystep}-1
+
+fix def all deform 1 ${dir} delta ${dtilt} units box
+
+run 1
+
+unfix def
+
+run 0 
+
+min_style cg
+
+minimize ${thresh} ${thresh} ${maxiter} ${maxiter}
+
+run 0
