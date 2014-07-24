@@ -1,0 +1,21 @@
+### LAMMPS KA mixture creation scripts ###
+### Davide Fiocco, EPFL, 2013. e-mail: davide.fiocco@outlook.com ###
+
+The LAMMPS scripts provided here allow to:
+
+make.in : initialize a simulation box containing N Kob-Andersen Lennard-Jones particles. Produces as output a binary file containing info about the configurations, and writes it in the file results/made.
+
+equilibrate.in : run the simulation using of the system using an NVT integrator at specified T. This is helpful to make the system reach an equilibrium state. The logfile equilibration.log is useful to monitor the behavior of the system during the attainment of equilibrium. The configuration reached at the end of the configuration is saved into the binary file results/equilibrated.
+
+relax.in : further evolve the system using a NVE integrator, and dumping configurations at intervals spaced linearly, with logarithmic subdivisions. This is useful to monitor the behavior of the intermediate scattering function (without dumping too many files).
+Configuration files are saved in results/relaxation. All files are taken at linearly spaced intervals of time, and are composite *.xyz containing logaritmically spaced configurations (this fact ought to be taken into account in the post-processing phase). The configuration reached at the end of the configuration is saved into the binary file results/relaxed.
+
+evolve.in : take an equilibrated configuration (generated from equilibrate.in above), evolve the system further with an NVE integrator and dump a configuration in a binary file in the directory results/production at regular dump intervals. The dump interval duration should be chosen according to the relaxation time as determined from the configuration generated in relax.in, so to generated uncorrelated samples.
+
+All the sequence of operations is activated by
+
+$ ./create.sh
+
+The parameters of the simulations are contained in the file parameters.in and briefly commented therein.
+
+The scripts have been tested to work on the version of LAMMPS (28 Feb 2012)

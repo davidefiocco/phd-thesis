@@ -1,0 +1,24 @@
+variable rho equal 1.2 # system density (dummy)
+variable L equal 3.7345  # box length / 2
+variable N equal 500 # Total number of particles
+variable T equal 0.466 # Temperature of the equilibration
+variable timestep equal 0.001 # timestep
+
+variable startT equal 10. # Initial temperature
+variable thermofreq equal 100 # dump interval of thermo values in the logs
+variable preequil equal 200000 # duration of the equilibration from startT to T ("pre-equilibration", so to say)
+
+variable equil equal 67108864 # duration of the equilibration at temperature T
+
+variable maxrelaxrun equal 1000 # number of linearly spaced subintervals in the relaxation
+variable maxrelaxstep equal 65536 # duration of a subinterval in the relaxation (should be a power of 2)
+
+variable evolvesteps equal 200000 # interval between each dumped configuration in the production phase
+variable evolverun	equal 200000000 # duration of the production phase
+
+variable thresh equal 1e-10 # minimization threshold
+variable maxiter equal 1e6 # max number of iterations in the minimization 
+
+variable seed1 equal 42534513452153 # random seeds for the LAMMPS random number generator
+variable seed2 equal 25342131172531
+variable seed3 equal 53453233375311

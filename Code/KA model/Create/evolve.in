@@ -1,0 +1,22 @@
+clear
+
+shell mkdir results/production
+
+read_restart	results/equilibrated
+
+include sys.in
+include params.in
+
+timestep ${timestep}
+
+neighbor	0.3 bin
+neigh_modify	every 1 delay 0 check no
+
+thermo ${thermofreq}
+
+restart ${evolvesteps} results/production/equilibrated*
+
+fix dyn all nve
+run		${evolverun}
+unfix dyn
+
