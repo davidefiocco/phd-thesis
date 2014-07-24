@@ -1,0 +1,57 @@
+echo none
+
+atom_modify map hash
+
+log /dev/null
+
+include params.in
+
+variable maxsteps equal ${maxgamma}/${dgamma}
+variable minsemicycles equal 2*${mincycles}
+
+read_restart restart-${minsemicycles}
+
+include sys.in
+
+if "${minsemicycles} == 0" then "set group all image 0 0 0"
+if "${minsemicycles} == 0" then "velocity	all create 0.0 12345"
+
+change_box all triclinic
+
+shell mkdir results
+shell mkdir results/aqsdeformation
+
+min_style cg
+
+minimize ${thresh} ${thresh} ${maxiter} ${maxiter}
+
+if "${minsemicycles} == 0" then "dump confs all custom 1 results/aqsdeformation/aqs-${minsemicycles}.xyz type xu yu zu" &
+	"dump_modify confs sort id every 1" &
+	"run 0" &
+	"undump confs"
+
+variable dir string xy
+
+variable minsemicyclesp equal ${minsemicycles}+1
+
+variable cyc loop ${mincycles} ${maxcycles}
+
+label loopout
+	
+		variable sign index 1 -1
+
+		label	    loopin
+	
+		include aqs.in
+		
+		next sign
+		
+	jump	    batch.in loopin
+		
+	next cyc	
+
+jump	    batch.in loopout
+
+variable maxsemicycles equal 2*${maxcycles}+2
+
+write_restart results/restart-${maxsemicycles}

@@ -1,0 +1,38 @@
+variable mystep equal 0
+
+thermo_style custom v_mystep pe xy xz yz pxy pxz pyz pxx pyy pzz lx
+
+min_style cg
+
+minimize ${thresh} ${thresh} ${maxiter} ${maxiter}
+
+variable i loop ${maxsteps}
+
+label	    loop
+
+	include shear.in
+
+	next i
+
+jump	    aqs.in loop
+
+variable j loop ${maxsteps}
+
+label	    loop2
+
+	include backshear.in
+
+	next j
+
+jump	    aqs.in loop2
+
+if "${sign} > 0" then &
+	"variable semicyc equal 2*${cyc}+1" &
+	"dump confs all custom 1 results/aqsdeformation/aqs-${semicyc}.xyz type xu yu zu" &
+else &
+	"variable semicyc equal 2*${cyc}+2" &
+	"dump confs all custom 1 results/aqsdeformation/aqs-${semicyc}.xyz type xu yu zu"	
+	
+dump_modify confs sort id every 1
+run 0
+undump confs

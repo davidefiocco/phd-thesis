@@ -1,0 +1,17 @@
+### LAMMPS KA mixture deformation scripts ###
+### Davide Fiocco, EPFL, 2013. e-mail: davide.fiocco@outlook.com ###
+
+The LAMMPS scripts provided here are nested all into batch.in, that allows to perform repeated oscillatory deformation of a given sample (whose name is set to be restart-XXX in batch.in, where XXX is a number) up to a specified amplitude.
+
+The structure of the nested scripts (nested using the include and jump instructions of LAMMPS) is as follows:
+
+batch.in loops over semicycles:
+	aqs.in (represents a deformation semicycle, which in turn consists of a forward shear and backshear (or backward and forward shear)) loops over:
+		shear.in
+		backshear.in
+		
+The configurations of zero-strain visited in the simulation are saved in the XYZ format in the directory aqsdeformation. A full configuration is saved in a LAMMPS binary file at the end of the simulation.
+
+The parameters of the simulations are contained in the file parameters.in and briefly commented therein.
+
+The scripts have been tested to work on the version of LAMMPS (28 Feb 2012)

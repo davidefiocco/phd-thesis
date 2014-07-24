@@ -1,0 +1,8 @@
+variable maxgamma equal 0.1 # maximum value of the strain	
+variable dgamma equal	0.001 # strain increment
+variable mincycles equal	0 # the simulation reads a file whose name is restart-${mincycles}
+variable maxcycles equal	500 # the simulation writes a file whose name is restart-${maxcycles} after having performed maxcycles - mincycles cycles.
+
+variable thresh equal	1e-13 # minimization parameters
+variable maxiter equal	1e6
+
