@@ -1,4 +1,4 @@
-### LAMMPS TM model template scripts ###
+### TM model template scripts ###
 ### Davide Fiocco, EPFL, 2013. e-mail: davide.fiocco@outlook.com ###
 
 The two scripts createP.py and createPsparse.py generate Transition Matrices according to the rules of the TM model described in my PhD thesis, once that the number of minima "M", the probability of minimum destabilization per unit "strain" p, and the value of "maximum strain" gamma_max are given.
