@@ -14,7 +14,7 @@ M = np.shape(Pplus)[0]
 
 P = Pplus.dot(Pminus)
 a = np.zeros(M)
-G = nx.from_scipy_sparse_matrix(J)
+G = nx.from_scipy_sparse_matrix(P)
 for k in range(M):
 	if P[k, k] == 1:
 		subnodes = nx.node_connected_component(G, k)
