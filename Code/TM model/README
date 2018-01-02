@@ -2,7 +2,7 @@
 ### Davide Fiocco, EPFL, 2013. e-mail: davide.fiocco@outlook.com ###
 
 The two scripts createP.py and createPsparse.py generate Transition Matrices according to the rules of the TM model described in my PhD thesis, once that the number of minima "M", the probability of minimum destabilization per unit "strain" p, and the value of "maximum strain" gamma_max are given.
-The latter script employs sparce matrices and handles large values of number of "minima" M.
+The latter script employs sparse matrices and handles large values of number of "minima" M.
 
 The matrices Pplus (or Pminus) that can be generated with such scripts can be combined in a matrix P and the fraction of absorbing states can be calculated using the following snippet (sparse matrix flavor): 
 
